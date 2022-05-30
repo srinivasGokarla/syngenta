@@ -19,13 +19,13 @@ circle
 <div     className="bluecircle">
 circle
 </div>
-<div     className="greencircle">
+<div   className="greencircle">
 circle
 </div>
-<div     className="yellowcircle">
+<div   className="yellowcircle">
 circle
 </div>
-<div     className="violetcircle">
+<div    className="violetcircle">
 circle
 </div>
 
@@ -42,7 +42,7 @@ box
 <div onClick={()=>setClick(2)}    className="redcircle">
 circle
 </div>
-<div    onClick={()=>setClick(2)} className="bluecircle">
+<div    onClick={()=>setClick3(2)} className="bluecircle">
 circle
 </div>
 <div     className="greencircle">
@@ -59,7 +59,7 @@ circle
  }
 
 
- if(Click3===3 && Click===1){
+ if(Click3===2 && Click===2){
 
     return <div>
 
@@ -70,7 +70,7 @@ box
 <div    className="redcircle">
 circle
 </div>
-<div   onClick={()=>setClick3(4)}   className="bluecircle">
+<div   onClick={()=>setClick(2)}   className="bluecircle">
 circle
 </div>
 <div     className="greencircle">
@@ -89,13 +89,13 @@ circle
  }
 
 
-if(Click3===4 && Click===1){
+if(Click3=== 2 && Click===1){
 
 return <div>
 <div className="box">
 box
 
-<div   onClick={()=>setClick3(3)}  className="bluecircle">
+<div   onClick={()=>setClick3(2)}  className="bluecircle">
 circle
 </div>
 
